@@ -12,9 +12,9 @@ chrome_options.add_argument("--headless")  # no window
 driver = webdriver.Chrome(options=chrome_options)
 driver.get(url)
 
-f = open("blasons.txt", 'a')
-i=0
-while i<=1000:
+f = open("blasons_png.txt", 'a')
+i=2340
+while i<=6000:
     i=i+1
     img_b64 = WebDriverWait(driver, 20).until(
         lambda driver: driver.find_element_by_css_selector('img.device-preview').get_attribute('ng-src'))[22:]
@@ -26,7 +26,13 @@ while i<=1000:
     print(nom)
     print(str(i)+ "\n")
 
-    driver.find_element_by_class_name('brass-button-small').click()
-    #  wait end of js function trigged by the click
-    WebDriverWait(driver, 20).until(
-        lambda driver: driver.find_element_by_css_selector('em.ng-binding').get_attribute('innerHTML')[1:-1] != nom)
+    while True:
+        driver.find_element_by_class_name('brass-button-small').click()
+        #  wait end of js function trigged by the click
+        try:
+            WebDriverWait(driver, 20).until(
+                lambda driver: driver.find_element_by_css_selector('em.ng-binding').get_attribute('innerHTML')[1:-1] != nom)
+            break
+        except:
+            pass
+
