@@ -9,5 +9,5 @@ format : name;base64(img)
 
 ## Links
 
-[Rapport]()
-[Google Colab]()
+ * [Rapport]()
+ * [Google Colab]()
