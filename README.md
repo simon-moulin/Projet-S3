@@ -10,18 +10,13 @@ Le programme a été développé en Python avec le framework TensorFlow en utili
 
 Prgramme qui télécharge des blasons à partir du site [Worldspinner](https://worldspinner.com/heraldry/device_editor/). Ce site génére des blasons aléatoirement.
 
-sortie : blasons.txt
-format : <description>;<image_au_format_base64>
-   
+ sortie : blasons.txt<br>
+ format : \<description\>;\<image_au_format_base64\>
  
  ## Lien
 
  * [Rapport](https://github.com/paul-vanderhoeven/Reconnaissance-de-blasons-par-machine-learning/raw/master/Rapport-reconnaissance-de-blasons-par-machine-learning.pdf)
  * [Google Colab](https://drive.google.com/drive/folders/1RxZQIgShfS9htJAEF2vUhmkR5iOniqCD)
  
- Projet réalisé dans le cadre du projet tutoré de semestre 3 en DUT Informatique par
- Paul VAN DER HOEVEN
- Simon MOULIN
- Tom ALEGRE
- Sylvain REYNAUD
+ Projet réalisé dans le cadre du projet tutoré de semestre 3 en DUT Informatique par Paul VAN DER HOEVEN, Simon MOULIN, Tom ALEGRE et Sylvain REYNAUD.
  
