@@ -17,6 +17,7 @@ Prgramme qui télécharge des blasons à partir du site [Worldspinner](https://w
 
  * [Rapport](https://github.com/paul-vanderhoeven/Reconnaissance-de-blasons-par-machine-learning/raw/master/Rapport-reconnaissance-de-blasons-par-machine-learning.pdf)
  * [Google Colab](https://drive.google.com/drive/folders/1RxZQIgShfS9htJAEF2vUhmkR5iOniqCD)
+ * [Images](https://drive.google.com/file/d/1mIwprMOadAF7tFDj0DzZXSlr-Cm_nFM3/view?usp=sharing)
  
  Projet réalisé dans le cadre du projet tutoré de semestre 3 en DUT Informatique par Paul VAN DER HOEVEN, Simon MOULIN, Tom ALEGRE et Sylvain REYNAUD.
  
