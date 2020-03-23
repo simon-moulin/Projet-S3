@@ -6,7 +6,7 @@ A more detailed paper is available right [here](http://tomalegre.fr/Rapport-Reco
 
 ## Links
 
- * [Paper](http://tomalegre.fr/Rapport-Reconnaissance-de-blasons-par-machine-learning.pdf)
+ * [Paper](http://simonmoulin.fr/Rapport-Q2-Reconnaissance-de-blasons-par-machine-learning.pdf)
  * [Google Colab](https://drive.google.com/drive/folders/1RxZQIgShfS9htJAEF2vUhmkR5iOniqCD)
 
 
