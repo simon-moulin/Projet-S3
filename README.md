@@ -1,23 +1,25 @@
-# Reconnaissance de blasons par machine learning
-
+# Recognizing blazons thanks to Machine Learning
 ## Description
 
-Le projet consiste à nommer automatiquement des blasons suivant les règles de l’art héraldique. Le programme prend en entrée un blason au format image et le programme reconnaît les couleurs et les différents éléments (field, division, ordinary) sur le blason afin de donner son nom en héraldique.
+This project is a TensorFlow project made to recognize blazons trhough machine learning. It has been developed by as a school project with [Simon Moulin](https://github.com/simon-moulin), [Paul van der Hoeven](https://github.com/paul-vanderhoeven) and [Sylvain Reynaud](https://github.com/sylvain-reynaud) during our second year of UIT.
 
-Le programme a été développé en Python avec le framework TensorFlow en utilisant un algorithme de machine learning.
+A more detailed paper is available right [here](http://tomalegre.fr/Rapport-Reconnaissance-de-blasons-par-machine-learning.pdf).
 
-## Générateur de blasons
 
-Prgramme qui télécharge des blasons à partir du site [Worldspinner](https://worldspinner.com/heraldry/device_editor/). Ce site génére des blasons aléatoirement.
-
- sortie : blasons.txt<br>
- format : \<description\>;\<image_au_format_base64\>
- 
- ## Lien
-
- * [Rapport](https://github.com/paul-vanderhoeven/Reconnaissance-de-blasons-par-machine-learning/raw/master/Rapport-reconnaissance-de-blasons-par-machine-learning.pdf)
+## Links
+ * [Paper](https://github.com/paul-vanderhoeven/Reconnaissance-de-blasons-par-machine-learning/raw/master/Rapport-reconnaissance-de-blasons-par-machine-learning.pdf)
  * [Google Colab](https://drive.google.com/drive/folders/1RxZQIgShfS9htJAEF2vUhmkR5iOniqCD)
  * [Images](https://drive.google.com/file/d/1mIwprMOadAF7tFDj0DzZXSlr-Cm_nFM3/view?usp=sharing)
+
+
+Project realized within the tutored project in DUT of Computer science by Tom ALEGRE, Simon MOULIN, Paul VAN DER HOEVEN and Sylvain REYNAUD.
  
- Projet réalisé dans le cadre du projet tutoré de semestre 3 en DUT Informatique par Paul VAN DER HOEVEN, Simon MOULIN, Tom ALEGRE et Sylvain REYNAUD.
- 
+
+## Blazon Generator
+
+The blazon generator is made with Python and Selenium to retrieve data in order to make our own dataset. Again, a more detailed paper is available [here](http://tomalegre.fr/Rapport-Reconnaissance-de-blasons-par-machine-learning.pdf)
+
+It generates blazons thanks to [Worldspinner](https://worldspinner.com/heraldry/device_editor/)
+
+output : blasons.txt
+format : name;base64(img)
